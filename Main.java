@@ -16,7 +16,7 @@ public class Main {
         Integer[] vetorDeInteger = {25,223,66,1,22,88,4,77,3,6,0};
         Integer[] auxInteger = new Integer[vetorDeInteger.length];
         generic2.ordenar(vetorDeInteger, auxInteger);
-        System.out.println("Ordenando Strings: " + Arrays.toString(vetorDeInteger));
+        System.out.println("Ordenando Integers: " + Arrays.toString(vetorDeInteger));
 
     }
 }
